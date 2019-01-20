@@ -1,0 +1,26 @@
+.image{
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.info{
+  border: 1px solid gray;
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+button{
+  display: inline-block;
+  margin: 5px 5px;
+
+}
+#button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#shadow {
+  -moz-box-shadow:    0px  2px  #ccc;
+  -webkit-box-shadow: 0px  2px  #ccc;
+  box-shadow:         0px  2px  #ccc;
+}
